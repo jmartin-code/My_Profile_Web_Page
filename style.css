@@ -8,13 +8,13 @@ body {
 h1 {
   font-family: "Sacramento", cursive;
   margin: 2.5rem auto 0 auto;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #66bfbf;
 }
 h2 {
   text-decoration: underline;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #66bfbf;
   font-weight: normal;
   padding-bottom: 10px;
