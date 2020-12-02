@@ -54,9 +54,9 @@ const Home = () => {
         <img src={ProfileImg} height="285" width="245" alt="Jonathan Profile" />
       </div>
       <div className={classes.profileinfo}>
-        <Typography variant="h1"> Jonathan Martinez </Typography>
+        <Typography variant="h1"> Jonathan M. Martinez </Typography>
         <Typography variant="h4">
-          Electrical Engineer and Software Developer{" "}
+          Electrical Engineer & Software Developer{" "}
         </Typography>
         <br />
         <Typography variant="h5">
@@ -64,7 +64,7 @@ const Home = () => {
           an electrical engineer background. I am passioned about technology and devote most of my free
           time to develop websites or learn new programming skills. I would like to obtain an 
           opportunity as a Software Developer with a great company
-          that promotes team work, and professional growth. If you would like
+          that promotes team work, personal and professional growth. If you would like
           to know more about my professional expirience and technical skills,
           please take a look at my{" "}
           <Link
@@ -86,7 +86,18 @@ const Home = () => {
           >
             LinkedIn
           </Link>
-          {" "} profile. To get in contact please with me, send me an {" "}
+          {" "} profile. I also have a{" "}
+          <Link
+            href="https://github.com/jmartin-code"
+            target="_blank"
+            rel="noopener noreferrer"
+            underline="always"
+            color="inherit"
+          >
+            GitHub
+          </Link>
+          {" "} account in case you would like to collaborate. 
+          Please send me an {" "}
           <Link
             // component="a"
             href={`mailto:${"jmmartinez331@gmail.com"}`}
@@ -97,17 +108,7 @@ const Home = () => {
           >
             Email
           </Link>
-          {" "}. I also have a{" "}
-          <Link
-            href="https://github.com/jmartin-code"
-            target="_blank"
-            rel="noopener noreferrer"
-            underline="always"
-            color="inherit"
-          >
-            GitHub
-          </Link>{" "}
-          {" "} account in case you would like to collaborate.
+          {" "} to get in touch
         </Typography>
       </div>
     </div>

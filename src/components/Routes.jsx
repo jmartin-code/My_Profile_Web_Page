@@ -1,6 +1,7 @@
 // import React from "react";
 import Projects from "./Projects";
 import Home from "./Home";
+import NotFound from "./NotFound"
 
 const Routes = [
   {
@@ -12,6 +13,11 @@ const Routes = [
     path: "/projects",
     title: "Projects",
     component: Projects
+  },
+  {
+    path: "*",
+    // title: "NotFound",
+    component: NotFound
   }
 ];
 
