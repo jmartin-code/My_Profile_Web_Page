@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ################################# React JS #################################
+=======
+>>>>>>> eadc963697129499daa0edf60228de03eb3168ab
 .DS_STORE
 node_modules
 scripts/flow/*/.flowconfig
@@ -38,6 +41,7 @@ packages/react-devtools-extensions/.tempUserDataDir
 packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
 packages/react-devtools-scheduling-profiler/dist
+<<<<<<< HEAD
 
 ################################# JavaScript #################################
 
@@ -157,3 +161,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+=======
+>>>>>>> eadc963697129499daa0edf60228de03eb3168ab
