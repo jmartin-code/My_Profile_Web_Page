@@ -16,8 +16,8 @@ import ProfileImg from "../Images/ProfileImg.jpg";
 const useStyles = makeStyles((theme) => ({
   HomePage: {
     position: "relative",
-    margin: "0 auto 80px auto",
-    width: "70%"
+    margin: "0 auto 100px auto",
+    width: "60%"
   },
   navDisplayFlex: {
     display: "flex",
@@ -28,8 +28,9 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     background: "#D1D0CE",
     borderRadius: "10px",
-    textAlign: "center",
-    padding: "50px 50px 50px",
+    textAlign: "justify",
+    textAlignLast: "center",
+    padding: "50px 100px 50px",
     boxShadow: "0 2px 5px"
   },
   profileImage: {
@@ -58,13 +59,12 @@ const Home = () => {
           Electrical Engineer and Software Developer{" "}
         </Typography>
         <br />
-        <Typography variant="h6">
-          Hi, welcome to my profile webpage. I am an electrical engineer with
-          strong software development skills. I am looking into a new role as a
-          Software Engineer. I am passioned about technology and would like to
-          obtain an opportunity as a Software Developer with a great company
-          that promotes team work, and professional growth. I use my free time
-          to develop websites or learn new programming skills. If you would line
+        <Typography variant="h5">
+          Hi, welcome to my profile webpage. I am a software developer with 
+          an electrical engineer background. I am passioned about technology and devote most of my free
+          time to develop websites or learn new programming skills. I would like to obtain an 
+          opportunity as a Software Developer with a great company
+          that promotes team work, and professional growth. If you would like
           to know more about my professional expirience and technical skills,
           please take a look at my{" "}
           <Link
@@ -76,7 +76,7 @@ const Home = () => {
           >
             Resume
           </Link>
-          . To get in contact wit me you can use{" "}
+          {" "} or please go to my {" "}
           <Link
             href="https://www.linkedin.com/in/jonathan-m-martinez"
             target="_blank"
@@ -84,9 +84,9 @@ const Home = () => {
             underline="always"
             color="inherit"
           >
-            LinkedIn{" "}
+            LinkedIn
           </Link>
-          or send me an{" "}
+          {" "} profile. To get in contact please with me, send me an {" "}
           <Link
             // component="a"
             href={`mailto:${"jmmartinez331@gmail.com"}`}
@@ -97,7 +97,7 @@ const Home = () => {
           >
             Email
           </Link>
-          . I also have a{" "}
+          {" "}. I also have a{" "}
           <Link
             href="https://github.com/jmartin-code"
             target="_blank"
@@ -107,7 +107,7 @@ const Home = () => {
           >
             GitHub
           </Link>{" "}
-          account in case you would like to collaborate.
+          {" "} account in case you would like to collaborate.
         </Typography>
       </div>
     </div>

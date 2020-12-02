@@ -34,7 +34,7 @@ function Copyright() {
         value="resume"
         title="My Resume"
       >
-        <DescriptionIcon />
+        <DescriptionIcon fontSize="large"/>
       </IconButton>
 
       <IconButton
@@ -45,7 +45,7 @@ function Copyright() {
         value="LinkedIn"
         title="My LinkedIn"
       >
-        <LinkedInIcon />
+        <LinkedInIcon fontSize="large"/>
       </IconButton>
 
       <IconButton
@@ -56,7 +56,7 @@ function Copyright() {
         value="GitHub"
         title="My GitHub"
       >
-        <GitHubIcon />
+        <GitHubIcon fontSize="large"/>
       </IconButton>
 
       <IconButton
@@ -67,7 +67,7 @@ function Copyright() {
         value="Email"
         title="My Email"
       >
-        <EmailIcon />
+        <EmailIcon fontSize="large"/>
       </IconButton>
 
       <Typography variant="body1" color="textSecondary">
