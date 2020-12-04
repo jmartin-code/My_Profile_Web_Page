@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
   HomePage: {
     position: "relative",
     margin: "40px auto 100px auto",
-    width: "60%"
+    width: "80em "
   },
   navDisplayFlex: {
     display: "flex",
