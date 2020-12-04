@@ -17,21 +17,23 @@ const useStyles = makeStyles((theme) => ({
   HomePage: {
     position: "relative",
     margin: "0 auto 100px auto",
-    width: "60%"
+    width: "70%"
   },
   navDisplayFlex: {
     display: "flex",
     marginLeft: "auto"
   },
   profileinfo: {
-    textDecoration: "none",
     color: "black",
     background: "#D1D0CE",
     borderRadius: "10px",
     textAlign: "justify",
     textAlignLast: "center",
-    padding: "50px 100px 50px",
+    padding: "50px 60px",
     boxShadow: "0 2px 5px"
+  },
+  profilename: {
+    textAlign: "center"
   },
   profileImage: {
     textAlign: "center",
@@ -54,15 +56,17 @@ const Home = () => {
         <img src={ProfileImg} height="285" width="245" alt="Jonathan Profile" />
       </div>
       <div className={classes.profileinfo}>
-        <Typography variant="h1"> Jonathan M. Martinez </Typography>
-        <Typography variant="h4">
-          Electrical Engineer & Software Developer{" "}
-        </Typography>
+        <div className={classes.profilename}>
+          <Typography variant="h1"> Jonathan M. Martinez </Typography>
+          <Typography variant="h4">
+            Electrical Engineer & Software Developer{" "}
+          </Typography>
+        </div>
         <br />
         <Typography variant="h5">
           Hi, welcome to my profile webpage. I am a software developer with 
           an electrical engineer background. I am passioned about technology and devote most of my free
-          time to develop websites or learn new programming skills. I would like to obtain an 
+          time to learn new technology. I would like to obtain an 
           opportunity as a Software Developer with a great company
           that promotes team work, personal and professional growth. If you would like
           to know more about my professional expirience and technical skills,

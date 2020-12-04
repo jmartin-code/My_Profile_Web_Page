@@ -7,7 +7,6 @@ const useStyles = makeStyles((theme) => ({
     height: "30vh",
     display: "flex",
     justifyContent: "center",
-    // textAlignLast: "center",
     alignItems: "center",
     margin: "40px auto",
     width: "60%",
@@ -23,7 +22,7 @@ const NotFound = () => {
   return (
     <div className={classes.ProjectsPage}>
       <Typography variant="h5">
-      The url path is invalid. 
+      This url path is invalid. 
       Please press the HOME button to return to the home page.
       </Typography>
     </div>
