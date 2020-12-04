@@ -69,8 +69,9 @@ function Copyright() {
       </IconButton>
 
       <Typography variant="body1" color="textSecondary">
-        Jonathan Martinez {"Copyright © "} {new Date().getFullYear()}
-        {"."}
+        {"Copyright © "} {new Date().getFullYear()}{" "}
+        Jonathan Martinez.{" "} 
+        All Rights Reserved
       </Typography>
     </div>
   );

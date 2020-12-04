@@ -8,11 +8,24 @@ const theme = createMuiTheme({
   },
   typography: {
     fontFamily: "Helvetica Neue",
-    // useNextVariants: true
+    useNextVariants: true,
     h1: {
       fontSize: 50,
-      fontWeight: 1000
+      textAlign: "center",
+      fontWeight: "bold"
     },
+    
+    h4: {
+      fontSize: 34,
+      textAlign: "center"
+    },
+    
+    h5: {
+      fontSize: 24,
+      lineHeight: 2,
+      textAlign: "justify"
+    },
+
     body1: {
       fontWeight: 500
     },

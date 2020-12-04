@@ -18,13 +18,13 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     background: "#D1D0CE",
     borderRadius: "10px",
-    textAlign: "justify",
-    textAlignLast: "center",
+    // textAlign: "justify",
+    // textAlignLast: "center",
     padding: "50px 60px",
     boxShadow: "0 2px 5px"
   },
   profilename: {
-    textAlign: "center"
+    // textAlign: "center"
   },
   profileImage: {
     textAlign: "center",
@@ -54,14 +54,15 @@ const Home = () => {
           </Typography>
         </div>
         <br />
-        <Typography variant="h5">
+        <Typography
+         variant="h5">
           Hi, welcome to my profile webpage. I am a software developer with 
           an electrical engineer background. I am passioned about technology and devote most of my free
-          time to learn new technology. I would like to obtain an 
+          time to learn new technology skills. I would like to obtain an 
           opportunity as a Software Developer with a great company
-          that promotes team work, personal and professional growth. If you would like
-          to know more about my professional expirience and technical skills,
-          please take a look at my{" "}
+          that promotes teamwork, personal and professional growth. If you would like
+          to know more about my professional experience and technical skills,
+          please look at my{" "}
           <Link
             href={Resume}
             target="_blank"
@@ -103,7 +104,7 @@ const Home = () => {
           >
             Email
           </Link>
-          {" "} to get in touch
+          {" "} to get in touch.
         </Typography>
       </div>
     </div>
