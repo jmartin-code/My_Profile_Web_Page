@@ -22,8 +22,8 @@ const theme = createMuiTheme({
     
     h5: {
       fontSize: 24,
-      lineHeight: 2,
-      textAlign: "justify"
+      lineHeight: 1.2
+      // textAlign: "center"
     },
 
     body1: {

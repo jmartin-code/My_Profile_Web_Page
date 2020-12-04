@@ -4,14 +4,14 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles((theme) => ({
   ProjectsPage: {
-    position: "relative",
-    margin: "40px auto",
-    width: "90%",
-    textDecoration: "none",
+    // position: "relative",
+    margin: "80px auto",
+    width: "80%",
+    // textDecoration: "none",
     color: "black",
     background: "#D1D0CE",
     borderRadius: "10px",
-    textAlign: "center",
+    // textAlign: "center",
     // padding: "50px 50px 50px",
     boxShadow: "0 2px 5px"
   }

@@ -7,8 +7,8 @@ import Resume from "../Resume/Resume.pdf";
 const useStyles = makeStyles((theme) => ({
   HomePage: {
     position: "relative",
-    margin: "100px auto",
-    width: "70%"
+    margin: "40px auto 100px auto",
+    width: "60%"
   },
   navDisplayFlex: {
     display: "flex",
@@ -50,18 +50,21 @@ const Home = () => {
         <div className={classes.profilename}>
           <Typography variant="h1"> Jonathan M. Martinez </Typography>
           <Typography variant="h4">
-            Electrical Engineer & Software Developer{" "}
+            Electrical Engineer - Software Developer{" "}
           </Typography>
         </div>
         <br />
         <Typography
          variant="h5">
-          Hi, welcome to my profile webpage. I am a software developer with 
-          an electrical engineer background. I am passioned about technology and devote most of my free
-          time to learn new technology skills. I would like to obtain an 
-          opportunity as a Software Developer with a great company
-          that promotes teamwork, personal and professional growth. If you would like
-          to know more about my professional experience and technical skills,
+          I am a software developer with an electrical engineer background who is passionate about technology.
+          I devote my free time to learning new tech skills.
+          <br />
+          <br />
+          I am always on the lookout fo new opportunities as a Software Developer with a great company
+          that promotes teamwork, personal and professional growth. 
+          <br />
+          <br />
+          If you would like to know more about my professional experience and technical skills,
           please look at my{" "}
           <Link
             href={Resume}
@@ -72,7 +75,7 @@ const Home = () => {
           >
             Resume
           </Link>
-          {" "} or please go to my {" "}
+          {" "} or {" "}
           <Link
             href="https://www.linkedin.com/in/jonathan-m-martinez"
             target="_blank"
@@ -82,7 +85,10 @@ const Home = () => {
           >
             LinkedIn
           </Link>
-          {" "} profile. I also have a{" "}
+          {" "} profile.{""}
+          <br />
+          <br />
+          Take a look at my{" "}
           <Link
             href="https://github.com/jmartin-code"
             target="_blank"
@@ -92,8 +98,7 @@ const Home = () => {
           >
             GitHub
           </Link>
-          {" "} account in case you would like to collaborate. 
-          Please send me an {" "}
+          {" "} repo in case you would like to collaborate or send me an {" "}
           <Link
             // component="a"
             href={`mailto:${"jmmartinez331@gmail.com"}`}
