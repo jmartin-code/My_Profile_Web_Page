@@ -21,8 +21,8 @@ const Projects = () => {
   const classes = useStyles();
   return (
     <div className={classes.ProjectsPage}>
-      <Typography variant="h5">This page is under construction.</Typography>
-      <Typography variant="h5">
+      <Typography variant="h4">This page is under construction.</Typography>
+      <Typography variant="h4">
         The info for this page will be available soon!
       </Typography>
     </div>
