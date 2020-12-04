@@ -1,4 +1,3 @@
-// import React from "react";
 import Projects from "./Projects";
 import Home from "./Home";
 import NotFound from "./NotFound"

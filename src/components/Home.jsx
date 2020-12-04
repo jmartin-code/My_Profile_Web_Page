@@ -1,17 +1,8 @@
 import React from "react";
-import Resume from "../Resume/Resume.pdf";
-// import theme from "./Theme";
-// import { ThemeProvider } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-// import profileImg from "./image;
-// import Button from "@material-ui/core/Button";
-import { Link } from "@material-ui/core";
-// import Typography from "@material-ui/core/Typography";
-// import AddIcon from "@material-ui/icons/Add";
-// import Fab from "@material-ui/core/Fab";
-// import Zoom from "@material-ui/core/Zoom";
-import { makeStyles } from "@material-ui/core/styles";
+import { Link, Typography } from '@material-ui/core';
+import { ThemeProvider, makeStyles } from "@material-ui/core/styles";
 import ProfileImg from "../Images/ProfileImg.jpg";
+import Resume from "../Resume/Resume.pdf";
 
 const useStyles = makeStyles((theme) => ({
   HomePage: {

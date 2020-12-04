@@ -5,12 +5,12 @@ import {
   List,
   ListItem,
   ListItemText,
-  Container
+  Container,
+  Typography
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import Routes from "./Routes";
-import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles((theme) => ({
   navbarDisplayFlex: {
