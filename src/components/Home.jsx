@@ -7,7 +7,7 @@ import Resume from "../Resume/Resume.pdf";
 const useStyles = makeStyles((theme) => ({
   HomePage: {
     position: "relative",
-    margin: "0 auto 100px auto",
+    margin: "100px auto",
     width: "70%"
   },
   navDisplayFlex: {
