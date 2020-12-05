@@ -3,13 +3,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
-  ProjectsPage: {
-    height: "30vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
+  NotFoundInfo: {
+    padding: "50px 50px",
+    textAlign: "center",
+    // alignItems: "center",
     margin: "40px auto",
-    width: "60%",
     color: "red",
     background: "#D1D0CE",
     borderRadius: "10px",
@@ -20,9 +18,9 @@ const useStyles = makeStyles((theme) => ({
 const NotFound = () => {
   const classes = useStyles();
   return (
-    <div className={classes.ProjectsPage}>
-      <Typography variant="h5">
-      This url path is invalid. 
+    <div className={classes.NotFoundInfo}>
+      <Typography variant="h6">
+      Invalid URL. <br/> 
       Please press the HOME button to return to the home page.
       </Typography>
     </div>

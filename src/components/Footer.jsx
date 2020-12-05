@@ -10,7 +10,6 @@ import Resume from "../Resume/Resume.pdf";
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    // height: "50px",
     position: "fixed",
     textAlign: "center",
     bottom: "0",

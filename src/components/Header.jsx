@@ -43,10 +43,11 @@ const Header = () => {
             className={classes.navDisplayFlex}
           >
             {Routes.map((route, index) => (
-              // <Link to={route.path} key={index}>
-              <ListItem button key={index} component={Link} to={route.path}>
+              route.title !== "NotFound" ?
+              (<ListItem button key={index} component={Link} to={route.path}>
                 <ListItemText primary={route.title} />
-              </ListItem>
+              </ListItem>) : null
+              
             ))}
           </List>
         </Container>

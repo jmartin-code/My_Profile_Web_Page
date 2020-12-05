@@ -15,7 +15,7 @@ const Routes = [
   },
   {
     path: "*",
-    // title: "NotFound",
+    title: "NotFound",
     component: NotFound
   }
 ];
