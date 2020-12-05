@@ -5,8 +5,6 @@ import { Typography } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
   NotFoundInfo: {
     padding: "50px 50px",
-    textAlign: "center",
-    // alignItems: "center",
     margin: "40px auto",
     color: "red",
     background: "#D1D0CE",
