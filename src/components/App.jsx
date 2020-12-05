@@ -25,7 +25,7 @@ const App = () => {
     <div>
       <ThemeProvider theme={theme}>
         <Header />
-        <Container>
+        <Container maxWidth="md">
         <Switch>
           {Routes.map((route, index) => (
             <Route exact path={route.path} key={index}>

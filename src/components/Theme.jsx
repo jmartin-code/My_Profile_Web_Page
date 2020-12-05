@@ -12,19 +12,18 @@ const theme = createMuiTheme({
     h1: {
       fontSize: 35,
       textAlign: "center",
-      // fontStyle: "italic",
       fontWeight: 800
       
     },
     
     h4: {
-      fontSize: 24,
+      fontSize: 20,
       textAlign: "center",
       // fontStyle: "oblique"
     },
     
     h5: {
-      fontSize: 22,
+      fontSize: 20,
       lineHeight: 1.2
     },
     h6: {

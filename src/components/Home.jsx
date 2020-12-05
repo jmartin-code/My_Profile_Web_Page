@@ -6,9 +6,8 @@ import Resume from "../Resume/Resume.pdf";
 
 const useStyles = makeStyles((theme) => ({
   HomePage: {
-    // position: "relative",
-    margin: "0 auto 100px auto"
-    // width: "80%"
+    margin: "0 auto 80px auto",
+    width: "75%"
   },
   navDisplayFlex: {
     display: "flex",
@@ -48,7 +47,7 @@ const Home = () => {
             Electrical Engineer - Software Developer{" "}
           </Typography>
         </div>
-        <br />
+        <hr />
         <div>
         <Typography
          variant="h5">
