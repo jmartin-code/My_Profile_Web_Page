@@ -6,9 +6,8 @@ import Resume from "../Resume/Resume.pdf";
 
 const useStyles = makeStyles((theme) => ({
   HomePage: {
-    position: "relative",
-    margin: "40px auto 100px auto",
-    width: "80em "
+    margin: "0 auto 80px auto",
+    width: "80%"
   },
   navDisplayFlex: {
     display: "flex",
@@ -18,18 +17,13 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     background: "#D1D0CE",
     borderRadius: "10px",
-    // textAlign: "justify",
-    // textAlignLast: "center",
-    padding: "50px 60px",
+    padding: "50px 60px 15px",
     boxShadow: "0 2px 5px"
-  },
-  profilename: {
-    // textAlign: "center"
   },
   profileImage: {
     textAlign: "center",
-    width: 250,
-    height: 250,
+    width: 190,
+    height: 190,
     borderRadius: 200,
     overflow: "hidden",
     boxShadow: "0 2px 15px",
@@ -44,7 +38,7 @@ const Home = () => {
   return (
     <div className={classes.HomePage}>
       <div className={classes.profileImage}>
-        <img src={ProfileImg} height="285" width="245" alt="Jonathan Profile" />
+        <img src={ProfileImg} height="245" width="205" alt="Jonathan Profile" />
       </div>
       <div className={classes.profileinfo}>
         <div className={classes.profilename}>
@@ -54,6 +48,7 @@ const Home = () => {
           </Typography>
         </div>
         <br />
+        <div>
         <Typography
          variant="h5">
           I am a software developer with an electrical engineer background who is passionate about technology.
@@ -111,6 +106,7 @@ const Home = () => {
           </Link>
           {" "} to get in touch.
         </Typography>
+        </div>
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import Resume from "../Resume/Resume.pdf";
 
 const useStyles = makeStyles((theme) => ({
   footer: {
+    // height: "50px",
     position: "fixed",
     textAlign: "center",
     bottom: "0",
@@ -32,7 +33,7 @@ function Copyright() {
         value="resume"
         title="My Resume"
       >
-        <DescriptionIcon fontSize="large"/>
+        <DescriptionIcon/>
       </IconButton>
 
       <IconButton
@@ -43,7 +44,7 @@ function Copyright() {
         value="LinkedIn"
         title="My LinkedIn"
       >
-        <LinkedInIcon fontSize="large"/>
+        <LinkedInIcon/>
       </IconButton>
 
       <IconButton
@@ -54,7 +55,7 @@ function Copyright() {
         value="GitHub"
         title="My GitHub"
       >
-        <GitHubIcon fontSize="large"/>
+        <GitHubIcon/>
       </IconButton>
 
       <IconButton
@@ -65,7 +66,7 @@ function Copyright() {
         value="Email"
         title="My Email"
       >
-        <EmailIcon fontSize="large"/>
+        <EmailIcon/>
       </IconButton>
 
       <Typography variant="body1" color="textSecondary">

@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import Container from '@material-ui/core/Container';
 import { ThemeProvider, makeStyles } from "@material-ui/core/styles";
 import backgroundImg from "../Images/backgroundTexture.png";
 import Routes from "./Routes";
@@ -24,6 +25,7 @@ const App = () => {
     <div>
       <ThemeProvider theme={theme}>
         <Header />
+        <Container fixed>
         <Switch>
           {Routes.map((route, index) => (
             <Route exact path={route.path} key={index}>
@@ -31,6 +33,7 @@ const App = () => {
             </Route>
           ))}
         </Switch>
+        </Container>
         <Footer />
       </ThemeProvider>
     </div>

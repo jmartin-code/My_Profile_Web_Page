@@ -10,7 +10,7 @@ const theme = createMuiTheme({
     fontFamily: "Helvetica Neue",
     useNextVariants: true,
     h1: {
-      fontSize: 50,
+      fontSize: 35,
       textAlign: "center",
       // fontStyle: "italic",
       fontWeight: 800
@@ -18,22 +18,19 @@ const theme = createMuiTheme({
     },
     
     h4: {
-      fontSize: 26,
+      fontSize: 24,
       textAlign: "center",
       // fontStyle: "oblique"
     },
     
     h5: {
-      fontSize: 24,
+      fontSize: 22,
       lineHeight: 1.2
       // textAlign: "center"
     },
 
     body1: {
       fontWeight: 500
-    },
-    button: {
-      fontStyle: "bold"
     }
   }
 });
