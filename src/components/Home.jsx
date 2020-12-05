@@ -6,7 +6,7 @@ import Resume from "../Resume/Resume.pdf";
 
 const useStyles = makeStyles((theme) => ({
   HomePage: {
-    position: "relative",
+    // position: "relative",
     margin: "0 auto 100px auto"
     // width: "80%"
   },
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     background: "#D1D0CE",
     borderRadius: "10px",
-    padding: "50px 60px 15px",
+    padding: "50px 50px 20px 50px",
     boxShadow: "0 2px 5px"
   },
   profileImage: {
@@ -56,7 +56,7 @@ const Home = () => {
           I devote my free time to learning new tech skills.
           <br />
           <br />
-          I am always on the lookout fo new opportunities as a Software Developer with a great company
+          I am always on the lookout for new opportunities as a Software Developer with a great company
           that promotes teamwork, personal and professional growth. 
           <br />
           <br />
