@@ -31,7 +31,12 @@ const useStyles = makeStyles((theme) => ({
     overflow: "hidden",
     boxShadow: "0 2px 15px",
     border: "5px solid #D1D0CE",
-    margin: "30px auto -50px auto"
+    margin: "30px auto -50px auto",
+    webkitUserSelect: "none",
+    khtmlUserSelect: "none",
+    mozUserSelect: "none",
+    oUserSelect: "none",
+    userSelect: "none"
   }
 }));
 
@@ -41,7 +46,7 @@ const Home = () => {
   return (
     <div className={classes.HomePage}>
       <div className={classes.profileImage}>
-        <img src={ProfileImg} height="245" width="205" alt="Jonathan Profile" />
+        <img src={ProfileImg} height="245" width="205" draggable="false" alt="Jonathan Profile" />
       </div>
       <div className={classes.profileinfo}>
         <div className={classes.profilename}>
