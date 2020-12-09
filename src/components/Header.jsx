@@ -43,7 +43,7 @@ const Header = () => {
             className={classes.navDisplayFlex}
           >
             {Routes.map((route, index) => (
-              route.title !== "NotFound" ?
+              route.title !== "NotFound" && route.title !== "Projects" ?
               (<ListItem button key={index} component={Link} to={route.path}>
                 <ListItemText primary={route.title} />
               </ListItem>) : null
