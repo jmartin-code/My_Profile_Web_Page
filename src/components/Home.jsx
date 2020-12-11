@@ -22,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "10px",
     padding: "50px 50px 20px 50px",
     boxShadow: "0 2px 5px"
-    
   },
   profileImage: {
     textAlign: "center",

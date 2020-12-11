@@ -12,8 +12,7 @@ const useStyles = makeStyles((theme) => ({
   "@global": {
     body: {
       backgroundImage: `url(${backgroundImg})`,
-      backgroundColor: "#33bbff",
-      backgroundAttachment: "fixed"
+      backgroundColor: "#33bbff"
     }
   }
 }));
