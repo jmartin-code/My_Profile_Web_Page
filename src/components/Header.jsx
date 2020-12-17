@@ -14,7 +14,7 @@ import Routes from "./Routes";
 
 const useStyles = makeStyles((theme) => ({
   navbarDisplayFlex: {
-    display: "flex"
+    display: "flex",
   },
   navDisplayFlex: {
     display: "flex",

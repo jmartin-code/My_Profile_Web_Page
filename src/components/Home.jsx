@@ -1,6 +1,7 @@
 import React from "react";
-import { Link, Typography } from '@material-ui/core';
+import { Link, Typography, Container } from '@material-ui/core';
 import { ThemeProvider, makeStyles } from "@material-ui/core/styles";
+
 import ProfileImg from "../Images/ProfileImg.jpg";
 import Resume from "../Resume/Resume.pdf";
 
@@ -44,6 +45,7 @@ const Home = () => {
   const classes = useStyles();
 
   return (
+  <Container maxWidth="md">
     <div className={classes.HomePage}>
       <div className={classes.profileImage}>
         <img src={ProfileImg} height="245" width="205" draggable="false" alt="Jonathan Profile" />
@@ -117,6 +119,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+</Container>
   );
 };
 

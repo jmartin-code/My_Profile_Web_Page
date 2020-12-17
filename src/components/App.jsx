@@ -24,7 +24,7 @@ const App = () => {
     <div>
       <ThemeProvider theme={theme}>
         <Header />
-        <Container maxWidth="md">
+        {/* <Container maxWidth="md"> */}
         <Switch>
           {Routes.map((route, index) => (
             <Route exact path={route.path} key={index}>
@@ -32,7 +32,7 @@ const App = () => {
             </Route>
           ))}
         </Switch>
-        </Container>
+        {/* </Container> */}
         <Footer />
       </ThemeProvider>
     </div>

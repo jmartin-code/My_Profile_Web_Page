@@ -19,7 +19,6 @@ const theme = createMuiTheme({
     h4: {
       fontSize: 20,
       textAlign: "center",
-      // fontStyle: "oblique"
     },
     
     h5: {
