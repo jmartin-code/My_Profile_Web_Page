@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, Typography, Container } from '@material-ui/core';
 import { ThemeProvider, makeStyles } from "@material-ui/core/styles";
-
 import ProfileImg from "../Images/ProfileImg.jpg";
 import Resume from "../Resume/Resume.pdf";
 
