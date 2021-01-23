@@ -14,7 +14,7 @@ export default makeStyles((theme) => ({
   },
   profileinfo: {
     color: "black",
-    background: "#D1D0CE",
+    background: "#fafafa",
     borderRadius: "10px",
     padding: "50px 50px 20px 50px",
     boxShadow: "0 2px 5px",
@@ -26,7 +26,7 @@ export default makeStyles((theme) => ({
     borderRadius: 200,
     overflow: "hidden",
     boxShadow: "0 2px 15px",
-    border: "5px solid #D1D0CE",
+    border: "5px solid #fafafa",
     margin: "30px auto -50px auto",
     webkitUserSelect: "none",
     khtmlUserSelect: "none",

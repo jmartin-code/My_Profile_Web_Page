@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
     textAlign: "center",
     bottom: "0",
     width: "100%",
-    backgroundColor: "#D1D0CE",
+    backgroundColor: "#fafafa",
     boxShadow: "0 2px 10px",
   },
 }));

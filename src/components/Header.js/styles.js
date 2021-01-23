@@ -27,7 +27,7 @@ export default makeStyles({
     flexGrow: 1,
   },
   tabs: {
-    backgroundColor: "#D1D0CE",
+    backgroundColor: "#fafafa",
     color: "black",
   },
   tabLabel: {
