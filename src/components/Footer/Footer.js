@@ -1,26 +1,14 @@
 import React from "react";
-import { Container, Link, Typography } from '@material-ui/core';
-import { makeStyles } from "@material-ui/core/styles";
+import { Typography } from "@material-ui/core";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import IconButton from "@material-ui/core/IconButton";
 import DescriptionIcon from "@material-ui/icons/Description";
-import Resume from "../Resume/Resume.pdf";
+import Resume from "../../../src/Resume/Resume.pdf";
+import useStyles from "./styles";
 
-const useStyles = makeStyles((theme) => ({
-  footer: {
-    // display: "flex",
-    position: "fixed",
-    textAlign: "center",
-    bottom: "0",
-    width: "100%",
-    backgroundColor: "#D1D0CE",
-    boxShadow: "0 2px 10px"
-  }
-}));
-
-function Copyright() {
+function Footer() {
   const classes = useStyles();
 
   return (
@@ -33,7 +21,7 @@ function Copyright() {
         value="resume"
         title="My Resume"
       >
-        <DescriptionIcon/>
+        <DescriptionIcon />
       </IconButton>
 
       <IconButton
@@ -44,7 +32,7 @@ function Copyright() {
         value="LinkedIn"
         title="My LinkedIn"
       >
-        <LinkedInIcon/>
+        <LinkedInIcon />
       </IconButton>
 
       <IconButton
@@ -55,7 +43,7 @@ function Copyright() {
         value="GitHub"
         title="My GitHub"
       >
-        <GitHubIcon/>
+        <GitHubIcon />
       </IconButton>
 
       <IconButton
@@ -66,16 +54,15 @@ function Copyright() {
         value="Email"
         title="My Email"
       >
-        <EmailIcon/>
+        <EmailIcon />
       </IconButton>
 
       <Typography variant="body1" color="textSecondary">
-        {"Copyright © "} {new Date().getFullYear()}{" "}
-        Jonathan Martinez.{" "} 
-        All Rights Reserved
+        {"Copyright © "} {new Date().getFullYear()} Jonathan Martinez. All
+        Rights Reserved
       </Typography>
     </div>
   );
 }
 
-export default Copyright;
+export default Footer;

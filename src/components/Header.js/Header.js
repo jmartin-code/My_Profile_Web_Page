@@ -1,40 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
+import { Paper, Tabs, Tab, Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import Routes from "../Routes";
 import useStyles from "./styles";
-import {
-  AppBar,
-  Toolbar,
-  List,
-  ListItem,
-  ListItemText,
-  Container,
-  Typography,
-} from "@material-ui/core";
 
-const Header = () => {
+export default function Header() {
   const classes = useStyles();
-  return (
-    <Container className={classes.navBar}>
-      <AppBar position="static">
-        <Toolbar>
-          <List
-            component="nav"
-            aria-labelledby="main navigation"
-            className={classes.navDisplayFlex}
-          >
-            {Routes.map((route, index) =>
-              route.title !== "NotFound" && route.title !== "Projects" ? (
-                <ListItem button key={index} component={Link} to={route.path}>
-                  <ListItemText primary={route.title} />
-                </ListItem>
-              ) : null
-            )}
-          </List>
-        </Toolbar>
-      </AppBar>
-    </Container>
-  );
-};
+  const [value, setValue] = useState(0);
 
-export default Header;
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
+    <Paper className={classes.header}>
+      <Tabs
+        className={classes.tabs}
+        value={value}
+        TabIndicatorProps={{ style: { background: "#00b7ff" } }}
+        onChange={handleChange}
+      >
+        <Tab
+          label={
+            <Typography className={classes.tabLabel} variant="body1">
+              Home
+            </Typography>
+          }
+          component={Link}
+          to={"/"}
+        />
+        {/* <Tab
+          label={
+            <Typography className={classes.tabLabel} variant="body1">
+              Projects
+            </Typography>
+          }
+          component={Link}
+          to={"/projects"}
+        /> */}
+      </Tabs>
+    </Paper>
+  );
+}
