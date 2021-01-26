@@ -33,7 +33,7 @@ const Home = () => {
               <Typography variant="h5">
                 I am an engineer who is passionate about technology. I devote my
                 free time to keep up-to-date with technology trends and learning
-                new tech skills, in areas such as software development, cloud
+                new tech skills in areas such as software development, cloud
                 computing and security.
                 <br />
                 <br />
