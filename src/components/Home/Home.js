@@ -25,20 +25,21 @@ const Home = () => {
             <div className={classes.profilename}>
               <Typography variant="h1"> Jonathan M. Martinez </Typography>
               <Typography variant="h4">
-                Electrical Engineer - Software Developer{" "}
+                Software Developer - Electrical Engineer{" "}
               </Typography>
             </div>
             <hr />
             <div>
               <Typography variant="h5">
-                I am a software developer with an electrical engineer background
-                who is passionate about technology. I devote my free time to
-                learning new tech skills.
+                I am an engineer who is passionate about technology. I devote my
+                free time to keep up-to-date with technology trends and learning
+                new tech skills, in areas such as software development, cloud
+                computing and security.
                 <br />
                 <br />
-                I am always on the lookout for new opportunities as a Software
-                Developer with a great company that promotes teamwork, personal
-                and professional growth.
+                I am always on the lookout for new opportunities with a great
+                company that promotes teamwork, personal and professional
+                growth.
                 <br />
                 <br />
                 If you would like to know more about my professional experience
