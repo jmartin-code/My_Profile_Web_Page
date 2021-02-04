@@ -1,4 +1,6 @@
 # My_Profile_Web_Page
-Developing my profile webpage based on React, Material-UI, HTML and CSS-in-JS.
-This webpage will serve to provide information details regarding my personal and profesional carrer.
-I added links for easy access to my resume, Linikedin, GitHub and email information.
+
+• Developed my profile webpage based on React, Material-UI, HTML and CSS-in-JS.
+• This webpage serves to provide information and details regarding my personal and profesional career.
+• My personal site have links for easy access to my resume, LinikedIn, and email information.
+• Link: https://jonathanmartinez.netlify.app/
