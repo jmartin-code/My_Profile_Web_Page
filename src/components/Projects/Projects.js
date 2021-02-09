@@ -15,6 +15,9 @@ const Projects = () => {
 
   return (
     <Grid container className={classes.root}>
+      <Typography variant="h5" align="center">
+        WORK IN PROGRESS
+      </Typography>
       <Grid item xs={12}>
         <Grid container justify="center" spacing={10}>
           {/* {[0, 1, 2].map((value) => ( */}
@@ -30,9 +33,9 @@ const Projects = () => {
                   src={ProfileImg}
                 />
               </Grid>
-              <Grid item xs>
+              <Grid item align="center">
                 <Typography gutterBottom variant="subtitle1">
-                  Standard license
+                  In Progress
                 </Typography>
                 <Typography variant="h5" gutterBottom>
                   Full resolution 1920x1080 • JPEG
