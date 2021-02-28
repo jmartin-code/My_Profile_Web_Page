@@ -15,7 +15,7 @@ const App = () => {
       <ThemeProvider theme={theme}>
         <BrowserRouter>
           <Header />
-          <Container maxWidth="lg">
+          <Container maxWidth={false}>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/projects" component={Projects} />
