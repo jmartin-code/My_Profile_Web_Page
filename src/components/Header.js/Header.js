@@ -13,12 +13,7 @@ export default function Header() {
 
   return (
     <Paper className={classes.header}>
-      <Tabs
-        className={classes.tabs}
-        value={value}
-        TabIndicatorProps={{ style: { background: "#00b7ff" } }}
-        onChange={handleChange}
-      >
+      <Tabs className={classes.tabs} value={value} TabIndicatorProps={{ style: { background: "#00b7ff" } }} onChange={handleChange}>
         <Tab
           label={
             <Typography className={classes.tabLabel} variant="body1">

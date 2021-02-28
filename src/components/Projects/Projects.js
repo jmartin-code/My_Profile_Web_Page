@@ -24,14 +24,7 @@ const Projects = () => {
           <Grid item>
             <Paper className={classes.paper}>
               <Grid item align="center">
-                <img
-                  height="200"
-                  width="200"
-                  draggable="false"
-                  className={classes.img}
-                  alt=""
-                  src={ProfileImg}
-                />
+                <img height="200" width="200" draggable="false" className={classes.img} alt="" src={ProfileImg} />
               </Grid>
               <Grid item align="center">
                 <Typography gutterBottom variant="subtitle1">
@@ -49,14 +42,7 @@ const Projects = () => {
           <Grid item>
             <Paper className={classes.paper}>
               <Grid item align="center">
-                <img
-                  height="100"
-                  width="100"
-                  draggable="false"
-                  className={classes.img}
-                  alt=""
-                  src={ProfileImg}
-                />
+                <img height="100" width="100" draggable="false" className={classes.img} alt="" src={ProfileImg} />
               </Grid>
               <Grid item xs>
                 <Typography gutterBottom variant="subtitle1">
@@ -74,14 +60,7 @@ const Projects = () => {
           <Grid item>
             <Paper className={classes.paper}>
               <Grid item align="center">
-                <img
-                  height="100"
-                  width="100"
-                  draggable="false"
-                  className={classes.img}
-                  alt=""
-                  src={ProfileImg}
-                />
+                <img height="100" width="100" draggable="false" className={classes.img} alt="" src={ProfileImg} />
               </Grid>
               <Grid item xs>
                 <Typography gutterBottom variant="subtitle1">

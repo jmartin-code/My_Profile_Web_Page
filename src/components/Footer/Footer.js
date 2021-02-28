@@ -13,53 +13,24 @@ function Footer() {
 
   return (
     <div className={classes.footer}>
-      <IconButton
-        href={Resume}
-        target="_blank"
-        rel="noopener noreferrer"
-        name="myResume"
-        value="resume"
-        title="My Resume"
-      >
+      <IconButton href={Resume} target="_blank" rel="noopener noreferrer" name="myResume" value="resume" title="My Resume">
         <DescriptionIcon />
       </IconButton>
 
-      <IconButton
-        href="https://www.linkedin.com/in/jonathan-m-martinez"
-        target="_blank"
-        rel="noopener noreferrer"
-        name="myLinkedIn"
-        value="LinkedIn"
-        title="My LinkedIn"
-      >
+      <IconButton href="https://www.linkedin.com/in/jonathan-m-martinez" target="_blank" rel="noopener noreferrer" name="myLinkedIn" value="LinkedIn" title="My LinkedIn">
         <LinkedInIcon />
       </IconButton>
 
-      <IconButton
-        href="https://github.com/jmartin-code"
-        target="_blank"
-        rel="noopener noreferrer"
-        name="myGitHub"
-        value="GitHub"
-        title="My GitHub"
-      >
+      <IconButton href="https://github.com/jmartin-code" target="_blank" rel="noopener noreferrer" name="myGitHub" value="GitHub" title="My GitHub">
         <GitHubIcon />
       </IconButton>
 
-      <IconButton
-        href={`mailto:${"jmmartinez331@gmail.com"}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        name="myEmail"
-        value="Email"
-        title="My Email"
-      >
+      <IconButton href={`mailto:${"jmmartinez331@gmail.com"}`} target="_blank" rel="noopener noreferrer" name="myEmail" value="Email" title="My Email">
         <EmailIcon />
       </IconButton>
 
       <Typography variant="body1" color="textSecondary">
-        {"Copyright © "} {new Date().getFullYear()} Jonathan Martinez. All
-        Rights Reserved
+        {"Copyright © "} {new Date().getFullYear()} Jonathan Martinez. All Rights Reserved
       </Typography>
     </div>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
-import useStyles from "./styles";
 import { Container, ThemeProvider } from "@material-ui/core";
 
 import Header from "./components/Header.js/Header";
@@ -11,7 +10,6 @@ import NotFound from "./components/NotFoundPage/NotFound";
 import theme from "./components/Theme/Theme";
 
 const App = () => {
-  const classes = useStyles();
   return (
     <div>
       <ThemeProvider theme={theme}>
