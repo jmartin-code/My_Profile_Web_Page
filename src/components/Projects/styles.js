@@ -4,7 +4,7 @@ export default makeStyles((theme) => ({
   mainGrid: {
     flexGrow: 1,
     minHeight: "80vh",
-    paddingTop: "50px",
+    paddingTop: "45px",
     paddingBottom: "100px",
   },
   card: {
