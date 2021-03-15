@@ -23,7 +23,7 @@ export default function Header() {
           component={Link}
           to={"/"}
         />
-        {/* <Tab
+        <Tab
           label={
             <Typography className={classes.tabLabel} variant="body1">
               Projects
@@ -31,7 +31,7 @@ export default function Header() {
           }
           component={Link}
           to={"/projects"}
-        /> */}
+        />
       </Tabs>
     </Paper>
   );
