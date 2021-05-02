@@ -1,0 +1,10 @@
+.NotFound {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 50px 50px;
+  margin: 5%;
+  color: red;
+  background: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #333333;
+}

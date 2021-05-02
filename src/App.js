@@ -1,31 +1,37 @@
 import React from "react";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
-import { Container, ThemeProvider } from "@material-ui/core";
+import { Suspense } from "react";
+import { Switch, Route } from "react-router-dom";
 
-import Header from "./components/Header.js/Header";
-import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
-import Projects from "./components/Projects/Projects";
-import NotFound from "./components/NotFoundPage/NotFound";
-import theme from "./components/Theme/Theme";
+import Layout from "./components/Layout/Layout";
+import Loading from "./components/Loading/Loading";
+import ProjectsPage from "./components/Pages/ProjectsPage";
+
+const HomePage = React.lazy(() => import("./components/Pages/HomePage"));
+const NotFound = React.lazy(() => import("./components/Pages/NotFoundPage"));
 
 const App = () => {
   return (
-    <div>
-      <ThemeProvider theme={theme}>
-        <BrowserRouter>
-          <Header />
-          <Container maxWidth={false}>
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/projects" component={Projects} />
-              <Route exact path="*" component={NotFound} />
-            </Switch>
-          </Container>
-        </BrowserRouter>
-        <Footer />
-      </ThemeProvider>
-    </div>
+    <Layout>
+      <Suspense
+        fallback={
+          <div className="centered">
+            <Loading />
+          </div>
+        }
+      >
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route path="/projects">
+            <ProjectsPage />
+          </Route>
+          <Route path="*">
+            <NotFound />
+          </Route>
+        </Switch>
+      </Suspense>
+    </Layout>
   );
 };
 
