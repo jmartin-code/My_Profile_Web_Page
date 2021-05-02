@@ -83,8 +83,10 @@
 
 import { Grid, Zoom } from "@material-ui/core";
 import CardContainer from "../Card/CardContainer";
-import AwesomeQuotesImg from "../Images/AwesomeQuotes.jpg";
+import AwesomeQuotesImg from "../Images/AwesomeQuotes.PNG";
 import ProfileImg from "../Images/ProfileImg.jpg";
+import MomentsImg from "../Images/Moments.PNG";
+import MgmToolImg from "../Images/ManagementTool.PNG";
 
 import classes from "./Projects.module.css";
 
@@ -92,38 +94,38 @@ const Projects = () => {
   const projects = [
     {
       id: "p1",
-      name: "Awesome Quotes",
-      title: "Awesome Quotes webpage",
+      name: "Amazing Quotes",
+      title: "Amazing Quotes webpage",
       image: AwesomeQuotesImg,
       description:
         "This an amazing web page where you can add or read inspirational quotes.",
-      link: "https://awesome-quotes.netlify.app/",
+      link: "https://amazingquotes.netlify.app/",
     },
     {
       id: "p2",
-      name: "Memories",
-      title: "Memories webpage",
-      image: ProfileImg,
+      name: "Moments",
+      title: "Moments webpage",
+      image: MomentsImg,
       description: "This a very nice web page to add your favorite memories",
-      link: "https://awesome-quotes.netlify.app/",
+      link: "https://moments-portfolio.netlify.app/",
     },
     {
-      id: "p2",
-      name: "Memories",
-      title: "Memories webpage",
-      image: ProfileImg,
-      description: "this a nice web page to your favorite memories.",
-      link: "https://awesome-quotes.netlify.app/",
+      id: "p3",
+      name: "Project Management Tool",
+      title: "Project Management webpage",
+      image: MgmToolImg,
+      description: "This web app is really useful to keep track of of projects",
+      link: "https://mgm-tool.herokuapp.com/",
     },
   ];
+
   return (
     <Zoom timeout={1000} in>
       <div className={classes.grid}>
-        <Grid container spacing={4}>
+        <Grid container spacing={5}>
           {projects.map((project) => (
-            <Grid item xs>
+            <Grid key={project.id} item xs={12} sm={4}>
               <CardContainer
-                key={project.id}
                 name={project.name}
                 title={project.title}
                 description={project.description}

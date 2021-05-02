@@ -16,7 +16,7 @@ const Main = () => {
           </div>
           <div className={classes.profileinfo}>
             <div className={classes.profilename}>
-              <h1> Ian Alexaxnder Martinez </h1>
+              <h1> Jonathan Martinez </h1>
               <h3>Software Developer - Electrical Engineer</h3>
             </div>
             <hr />
