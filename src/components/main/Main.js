@@ -12,20 +12,12 @@ const Main = () => {
       <Zoom timeout={1000} in>
         <div className={classes.HomePage}>
           <div className={classes.profileImage}>
-            <img
-              src={ProfileImg}
-              height="245"
-              width="205"
-              draggable="false"
-              alt="Jonathan Profile"
-            />
+            <img src={ProfileImg} draggable="false" alt="Jonathan Profile" />
           </div>
           <div className={classes.profileinfo}>
             <div className={classes.profilename}>
-              <Typography variant="h1"> Jonathan M. Martinez </Typography>
-              <Typography variant="h4">
-                Software Developer - Electrical Engineer{" "}
-              </Typography>
+              <h1> Ian Alexaxnder Martinez </h1>
+              <h3>Software Developer - Electrical Engineer</h3>
             </div>
             <hr />
             <div>
