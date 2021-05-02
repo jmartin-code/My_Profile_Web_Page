@@ -36,4 +36,7 @@ export default makeStyles((theme) => ({
     oUserSelect: "none",
     userSelect: "none",
   },
+  profilename: {
+    textAlign: "center",
+  },
 }));
