@@ -1,27 +1,29 @@
-import React from "react";
-import { Link, Typography, Container, Zoom } from "@material-ui/core";
+import { Link, Container, Zoom } from "@material-ui/core";
 import ProfileImg from "../Images/ProfileImg.jpg";
 import Resume from "../Resume/Resume.pdf";
-import useStyles from "./styles";
+
+import classes from "./Main.module.css";
 
 const Main = () => {
-  const classes = useStyles();
-
   return (
     <Container maxWidth="lg">
       <Zoom timeout={1000} in>
         <div className={classes.HomePage}>
           <div className={classes.profileImage}>
-            <img src={ProfileImg} draggable="false" alt="Jonathan Profile" />
+            <img
+              src={ProfileImg}
+              draggable="false"
+              alt="Jonathan Profile image"
+            />
           </div>
-          <div className={classes.profileinfo}>
-            <div className={classes.profilename}>
-              <h1> Jonathan Martinez </h1>
+          <div className={classes.profileInfo}>
+            <div>
+              <h1> Jonathan M. Martinez </h1>
               <h3>Software Developer - Electrical Engineer</h3>
             </div>
             <hr />
             <div>
-              <Typography variant="h5">
+              <p>
                 I am an engineer who is passionate about technology. I devote my
                 free time to keep up-to-date with technology trends and learning
                 new tech skills in areas such as software development, cloud
@@ -78,7 +80,7 @@ const Main = () => {
                   Email
                 </Link>{" "}
                 to get in touch.
-              </Typography>
+              </p>
             </div>
           </div>
         </div>

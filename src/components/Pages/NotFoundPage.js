@@ -1,11 +1,7 @@
 import NotFound from "../NotFound/NotFound";
 
 const NotFoundPage = () => {
-  return (
-    <div>
-      <NotFound />
-    </div>
-  );
+  return <NotFound />;
 };
 
 export default NotFoundPage;
