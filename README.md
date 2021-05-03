@@ -1,4 +1,4 @@
-# My_Profile_Web_Page
+# My Profile Web Page
 
 • Developed my profile webpage based on React single page and Material-UI.
 • This webpage serves to provide information and details regarding my personal and profesional career.

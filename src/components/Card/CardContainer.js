@@ -1,5 +1,4 @@
 import {
-  Card,
   CardActionArea,
   CardActions,
   CardContent,
@@ -10,14 +9,14 @@ import classes from "./CardContainer.module.css";
 
 const CardContainer = (props) => {
   return (
-    <Card className={classes.cont}>
+    <div className={classes.content}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
           image={props.image}
           title={props.title}
         />
-        <CardContent className={classes.content}>
+        <CardContent>
           <h2>{props.name}</h2>
           <p>{props.description}</p>
         </CardContent>
@@ -29,14 +28,11 @@ const CardContainer = (props) => {
           href={props.link}
           target="_blank"
           rel="noopener noreferrer"
-          name="myLinkedIn"
-          value="LinkedIn"
-          title="My LinkedIn"
         >
           Link to website
         </Button>
       </CardActions>
-    </Card>
+    </div>
   );
 };
 
